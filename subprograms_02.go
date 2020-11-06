@@ -12,10 +12,10 @@ func sum(numbers ...int) int{
 
 func main(){
 	//var inhaArray [7] string //array
-//	var inhaSlice [] string //slice
-//	inhaSlice = make([]string, 7)
+	var inhaSlice [] string //slice
+	inhaSlice = make([]string, 7)
 	inhaSlice := []string{"i","n","h","a" }
-        nums := []int{1, 2, 3, 4, 5}
+        nums := []int{1, 2, -3, 4, 5}
 //	inhaSlice[0] = "i"
 //	inhaSlice[1] = "n"
 //	inhaSlice[2] = "h"
